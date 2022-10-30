@@ -1,0 +1,74 @@
+.card-front {
+    align-self: flex-start;
+    background-image: url(/src/images/bg-card-front.png);
+    margin-top: -4rem;
+}
+
+.card-back {
+    align-self: flex-end;
+    background-image: url(/src/images/bg-card-back.png);
+}
+
+.card-back,
+.card-front {
+    background-color: transparent;
+    box-shadow: 1rem 3rem 7rem rgba(0, 0, 0, 0.397);
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 447/245;
+    width: 18em;
+    padding: 1.2em;
+    border-radius: 10px;
+}
+
+.card-back p {
+    /* background-color: aqua; */
+    margin-top: 4.7em;
+    margin-right: 1.7em;
+    width: 100%;
+    text-align: end;
+    font-size: 0.7em;
+}
+
+.card-front img {
+    height: 2em;
+}
+
+
+.card-front p {
+    width: 100%;
+    text-transform: uppercase;
+    align-self: flex-end;
+    letter-spacing: 0.2em;
+}
+
+
+.card-front p:nth-last-child(2) {
+    flex: 2;
+    text-align: start;
+    font-size: 0.6em;
+}
+
+.card-front p:last-child {
+    text-align: end;
+    flex: 1;
+    font-size: 0.6em;
+}
+
+@media (min-width: 750px) {
+
+    .card-back,
+    .card-front {
+        font-size: 1.5em;
+        border-radius: 15px;
+    }
+
+    .card-front {
+        align-self: center;
+    }
+
+
+}

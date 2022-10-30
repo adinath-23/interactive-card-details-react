@@ -1,0 +1,71 @@
+input {
+    outline: none;
+    width: 100%;
+    height: 2.7rem;
+    box-sizing: border-box;
+    border-radius: 9px;
+    border: 1px solid hsl(270, 3%, 87%);
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0rem 1rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: hsl(278, 68%, 11%);
+}
+
+::placeholder {
+    color: hsl(270, 3%, 87%);
+}
+
+label {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.error,
+.error:focus {
+    border-color: hsl(0, 100%, 66%);
+}
+
+
+
+.form,
+form div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0rem 0.7rem;
+}
+
+
+
+button {
+    height: 3rem;
+    width: 100%;
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    border-radius: 7px;
+    border: none;
+}
+
+button:hover {
+    background-color: hsla(278, 68%, 11%, 0.9);
+}
+
+div:nth-child(3) {
+    flex: 1;
+}
+
+div:nth-child(3) input {
+    flex: 1;
+}
+
+div:nth-child(4) {
+    flex: 1;
+}

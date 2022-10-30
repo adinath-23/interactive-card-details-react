@@ -1,0 +1,17 @@
+.error {
+    font-size: 0.7em;
+    width: 100%;
+    color: hsl(0, 100%, 66%);
+    height: 0.8em;
+    margin: 0.3rem 0rem;
+    padding-bottom: 1.5em;
+}
+
+.noError {
+    font-size: 0.7em;
+    width: 100%;
+    visibility: hidden;
+    height: 0.8em;
+    margin: 0.3rem 0rem;
+    padding-bottom: 1.5em;
+}

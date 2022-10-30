@@ -1,0 +1,26 @@
+.confirmed {
+    max-width: 25rem;
+    padding: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem auto;
+}
+
+.confirmed p {
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+    color: hsl(279, 6%, 55%);
+}
+
+.confirmed button {
+    width: 100%
+}
+
+@media (min-width: 750px) {
+    .confirmed {
+        min-width: 25rem;
+    }
+}
