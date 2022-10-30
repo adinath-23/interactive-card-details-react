@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/interactive-card-details-react/static/css/main.3fe3575e.chunk.css",
+    "main.css": "/interactive-card-details-react/static/css/main.6a8e1956.chunk.css",
     "main.js": "/interactive-card-details-react/static/js/main.33775c69.chunk.js",
     "main.js.map": "/interactive-card-details-react/static/js/main.33775c69.chunk.js.map",
     "runtime-main.js": "/interactive-card-details-react/static/js/runtime-main.f6ae0391.js",
@@ -8,7 +8,7 @@
     "static/js/2.c22645b2.chunk.js": "/interactive-card-details-react/static/js/2.c22645b2.chunk.js",
     "static/js/2.c22645b2.chunk.js.map": "/interactive-card-details-react/static/js/2.c22645b2.chunk.js.map",
     "index.html": "/interactive-card-details-react/index.html",
-    "static/css/main.3fe3575e.chunk.css.map": "/interactive-card-details-react/static/css/main.3fe3575e.chunk.css.map",
+    "static/css/main.6a8e1956.chunk.css.map": "/interactive-card-details-react/static/css/main.6a8e1956.chunk.css.map",
     "static/js/2.c22645b2.chunk.js.LICENSE.txt": "/interactive-card-details-react/static/js/2.c22645b2.chunk.js.LICENSE.txt",
     "static/media/Card.module.css": "/interactive-card-details-react/static/media/bg-card-front.8153e2ca.png",
     "static/media/index.css": "/interactive-card-details-react/static/media/desktop.806e7aa7.png",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.f6ae0391.js",
     "static/js/2.c22645b2.chunk.js",
-    "static/css/main.3fe3575e.chunk.css",
+    "static/css/main.6a8e1956.chunk.css",
     "static/js/main.33775c69.chunk.js"
   ]
 }

@@ -12,7 +12,7 @@
 .card-back,
 .card-front {
     background-color: transparent;
-    box-shadow: 1rem 3rem 7rem rgba(0, 0, 0, 0.397);
+    box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.2);
     display: flex;
     flex-wrap: wrap;
     color: white;
